@@ -1,0 +1,102 @@
+<doctype html>
+    <html>
+    <title>Experiencias</title>
+    <head></head>
+    <body>
+        <style>
+            .vermelho{
+                background-color: red;}
+            .amarelo{
+                background-color: yellow;}
+            .azul{
+                background-color: teal;}
+        </style>
+        <table border="1">
+            <colgroup>
+                <col class="vermelho" span="2">
+                <col class="amarelo">
+                <col class="azul">
+            </colgroup>
+            <tr>
+                <Thead><th>Nome</th>
+                <Th>Numero</Th>
+                <th>Serie</th>
+                <th>Genero</th></thead>
+            </tr>
+            <tr>
+                <tbody><td>Jaime</td>
+                <td>16</td>
+                <td>1°</td>
+                <td>Masculono</td></tbody>
+            </tr>
+            <tr>
+                <tfoot><td>Matheus</td>
+                <td>17</td>
+                <td>1°</td>
+                <td>Masculino</td></tfoot>
+            </tr>
+        </table>
+        <br><h1>Formulario</h1>
+        <h2>Pesquisa Sobre seu Nivel de Liberdade</h2>
+        <form action="" method="">
+            <br><label for="nome">Seu Nome Por Favor:</label><br>
+            <input type="text" id="info P" value=""><br>
+
+            <label for="nome">Sua Idade Por Favor:</label><br>
+            <input type="text" id="info P" value=""><br><br>
+
+            Seu Genero:<br>
+            <input type="radio" id="M" value="M">
+            <label for="M">Masculino</label><br>
+
+            <input type="radio" id="F" value="F">
+            <label for="F">Ferminino</label><br><br>
+
+            Qual ideologia voce se Indentifica:<br>
+            <input type="checkbox" id="Opção 1" value="Socialista"> 
+            <label for="Opção 1">Socialismo</label><br>
+
+            <input type="checkbox" id="Opção 2" value="Capitalista">
+            <label for="Opção 2">Capitalismo</label><br>
+
+            <input type="checkbox" id="Opção 3" value="Indeciso"> 
+            <label for="Opção 3">Centro</label><br><br>
+ 
+            Agora Veremos o Quanto voce Conhece da ideologia Capitalismo:<br>
+            <label for="Opções">Quem aquele que puxa a Economia:</label>
+            
+            <select id="Opções">
+                <option value="Ação Humana">Empreendedor</option>
+                <option value="Aprendeu de Outro">Empresario</option>
+                <option value="Socialista">Trabalhador</option>
+            </select><br>
+
+                <input type="submit" onclick="alert('Obridado Por Responder')" value="Envio de Respostas">
+
+                <br><br><label for="password">Numeros de Teste</label><br>
+                <input type="password" id="info P" value="password">
+
+                <br><br><label for="Email">Email para Teste:</label><br>
+                <input type="email" id="info P" value="Email PLS">
+
+                <br><br><label for="nome">Data</label><br>
+                <input type="date" id="info P" value="">
+        </form>
+        <h3>Lista Editavel</h3>
+        <ul contenteditable="true">
+            <li>Olha tudo bem</li>
+            <li>Hellou its all ok</li>
+            <li></li>
+        </ul>
+        <h3>Pod Cast Mises Brasil</h3>
+        <audio autoplay="true" controls="controls">
+                <source src="665.mp3">
+        </audio><br><br>
+        <h3>Videos Aqui:</h3>
+        <video controls preload="auto">
+            <source src="https://www.youtube.com/embed/yLwJZ0OSpwU.mp4" type="video/mp4; 'codecs='avc1.42E01E, mp4a.40.2'" />
+        </video><br><br>
+        <iframe width="560" height="315" src="https1://www.youtube.com/embed/yLwJZ0OSpwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </body>
+    </html>

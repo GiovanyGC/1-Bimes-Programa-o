@@ -1,0 +1,43 @@
+.menu {
+    display: block;
+    margin: 80px;
+}
+body{
+    background-color:#A9A9A9;
+    background-image:url('https://images5.alphacoders.com/439/thumb-1920-439553.jpg');
+    background-repeat:repeat;
+    background-position:center;
+    background-size: 1350px 875px;
+    }
+.maquina {
+        text-align: center;
+        color: yellow;
+    }
+.teste {
+    padding-top: -800px;
+    margin: 80px;
+}
+.borda{
+    border-left: 6px solid yellow;
+    background-color: rgba(211, 211, 211, 0.247);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+  }
+li {
+float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+background-color: white;
+}
